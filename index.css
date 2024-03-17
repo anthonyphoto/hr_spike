@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: 1px solid red;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.cell {
+    border: 1px solid gray;
+    width: 33.33%;
+    text-align: center;
+
+    font-size: 64px;
+    height: 200px;
+    line-height: 200px;
+
+}
